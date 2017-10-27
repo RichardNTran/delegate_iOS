@@ -12,7 +12,7 @@
         <!--Idiot-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="IdiotViewController" customModule="DelegateTutorial" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="IdiotViewController" customModule="Idiot" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -63,7 +63,7 @@
         <!--Smart-->
         <scene sceneID="tBE-JJ-CTI">
             <objects>
-                <viewController id="gWg-o7-PtS" customClass="SmartViewController" customModule="DelegateTutorial" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="gWg-o7-PtS" customClass="SmartViewController" customModule="Idiot" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Hqm-6k-VFn"/>
                         <viewControllerLayoutGuide type="bottom" id="sic-p7-7OH"/>
@@ -128,7 +128,7 @@
                     <navigationItem key="navigationItem" title="Smart" id="U8M-St-UZC">
                         <barButtonItem key="rightBarButtonItem" title="Go Back" id="PML-f5-pHt">
                             <connections>
-                                <action selector="dismissView:" destination="gWg-o7-PtS" id="ITU-sB-me4"/>
+                                <action selector="goBack:" destination="gWg-o7-PtS" id="L0S-kL-JY1"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>

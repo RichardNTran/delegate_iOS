@@ -25,14 +25,10 @@ class SmartViewController: UIViewController {
 
         
     }
-    @IBAction func dismissView(_ sender: UIBarButtonItem) {
+    
+    @IBAction func goBack(_ sender: UIBarButtonItem) {
         delegate?.updateAnswer(isIdiot.isOn ? "You are Idiot" : "You are not Idiot")
         navigationController?.dismiss(animated: true)
     }
     
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        if segue.identifier == "goBackAnswer" {
-//            delegate?.updateAnswer(isIdiot.isOn ? "You are Idiot" : "You are not Idiot")
-//        }
-//    }
 }
